@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Character encoding -->
   <meta charset="utf-8" />
+  <!-- Page title -->
   <title>Query Sneakers</title>
+  <!-- Bootstrap CSS for styling -->
   <link
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -10,40 +13,54 @@
 </head>
 <body class="p-4">
   <div class="container">
+    <!-- Page header -->
     <h1 class="mb-4">Find Sneakers by Max Price</h1>
 
+    <!-- Search form -->
     <div class="form-inline mb-3">
+      <!-- Input for max price -->
       <input
         id="maxPrice"
         type="number"
         class="form-control mr-2"
         placeholder="Enter max price"
       />
+      <!-- Button to trigger AJAX search -->
       <button id="searchBtn" class="btn btn-primary">Search</button>
+      <!-- Link back to the full collection page -->
       <a href="/collection" class="btn btn-secondary ml-2">Back to Collection</a>
     </div>
 
+    <!-- Results will be injected here -->
     <ul id="results" class="list-group"></ul>
   </div>
 
   <script>
+    // Wait until the DOM is fully loaded
     document.addEventListener('DOMContentLoaded', () => {
       const btn   = document.getElementById('searchBtn');
       const input = document.getElementById('maxPrice');
       const list  = document.getElementById('results');
 
+      // On button click, fetch filtered sneakers
       btn.addEventListener('click', async () => {
         const max = encodeURIComponent(input.value);
+        // Show a loading message
         list.innerHTML = '<li class="list-group-item">Loading…</li>';
 
         try {
+          // Send GET request to the JSON endpoint
           const res = await fetch(`/sneakers?maxPrice=${max}`);
           if (!res.ok) throw new Error(`Status ${res.status}`);
+
+          // Parse the JSON response
           const data = await res.json();
 
+          // If no sneakers found, show a message
           if (!data.length) {
             list.innerHTML = '<li class="list-group-item">No results</li>';
           } else {
+            // Otherwise, render each sneaker in the list
             list.innerHTML = data.map(s => `
               <li class="list-group-item">
                 <strong>${s.name}</strong><br>
@@ -52,6 +69,7 @@
             `).join('');
           }
         } catch (err) {
+          // Log error and show it in the UI
           console.error(err);
           list.innerHTML = `
             <li class="list-group-item text-danger">
