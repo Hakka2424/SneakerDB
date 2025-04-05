@@ -24,7 +24,7 @@ app.use(express.json());
 
 // Health check
 app.get('/', (req, res) => {
-  res.send('Sneaker collection server is live!');
+  res.redirect('/collection');
 });
 
 // Show form to add a new sneaker
