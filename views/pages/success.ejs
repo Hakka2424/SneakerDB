@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Character encoding -->
     <meta charset="utf-8" />
+    <!-- Page title -->
     <title>Success</title>
+    <!-- Bootstrap CSS for styling -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
   </head>
+  <!-- Light background for the whole page -->
   <body class="bg-light">
+    <!-- Centered container with top margin -->
     <div class="container mt-5 text-center">
+      <!-- Success alert box -->
       <div class="alert alert-success">
+        <!-- Alert heading -->
         <h4 class="alert-heading">Sneaker Added!</h4>
+        <!-- Display the name of the sneaker that was saved -->
         <p>Your sneaker <strong><%= name %></strong> was saved.</p>
       </div>
+      <!-- Button to add another sneaker -->
       <a href="/form" class="btn btn-primary mr-2">Add Another</a>
+      <!-- Button to view the full collection -->
       <a href="/collection" class="btn btn-secondary">View Collection</a>
     </div>
   </body>
