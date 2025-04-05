@@ -27,22 +27,39 @@
   </div>
 
   <script>
-    document.getElementById('searchBtn').onclick = async () => {
-      const max = document.getElementById('maxPrice').value;
-      const res = await fetch(`/sneakers?maxPrice=${max}`);
-      const data = await res.json();
-      const list = document.getElementById('results');
-      if (!data.length) {
-        list.innerHTML = '<li class="list-group-item">No results</li>';
-        return;
-      }
-      list.innerHTML = data.map(s => 
-        `<li class="list-group-item">
-           <strong>${s.name}</strong><br>
-           $${s.price} — ${new Date(s.releaseDate).toLocaleDateString()}
-         </li>`
-      ).join('');
-    };
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn   = document.getElementById('searchBtn');
+      const input = document.getElementById('maxPrice');
+      const list  = document.getElementById('results');
+
+      btn.addEventListener('click', async () => {
+        const max = encodeURIComponent(input.value);
+        list.innerHTML = '<li class="list-group-item">Loading…</li>';
+
+        try {
+          const res = await fetch(`/sneakers?maxPrice=${max}`);
+          if (!res.ok) throw new Error(`Status ${res.status}`);
+          const data = await res.json();
+
+          if (!data.length) {
+            list.innerHTML = '<li class="list-group-item">No results</li>';
+          } else {
+            list.innerHTML = data.map(s => `
+              <li class="list-group-item">
+                <strong>${s.name}</strong><br>
+                $${s.price} — ${new Date(s.releaseDate).toLocaleDateString()}
+              </li>
+            `).join('');
+          }
+        } catch (err) {
+          console.error(err);
+          list.innerHTML = `
+            <li class="list-group-item text-danger">
+              Error: ${err.message}
+            </li>`;
+        }
+      });
+    });
   </script>
 </body>
 </html>
