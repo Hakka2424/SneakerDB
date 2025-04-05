@@ -1,7 +1,9 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var app = express();
-const port = 3000;
+const port     = process.env.PORT || 3000;
+
+const mongoURL = process.env.MONGODB_URI || 'mongodb://localhost:27017/sneakerDB';
 
 // Connect to the local MongoDB database "sneakerDB"
 async function main() {
