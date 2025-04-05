@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Query Sneakers</title>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+</head>
+<body class="p-4">
+  <div class="container">
+    <h1 class="mb-4">Find Sneakers by Max Price</h1>
+
+    <div class="form-inline mb-3">
+      <input
+        id="maxPrice"
+        type="number"
+        class="form-control mr-2"
+        placeholder="Enter max price"
+      />
+      <button id="searchBtn" class="btn btn-primary">Search</button>
+      <a href="/collection" class="btn btn-secondary ml-2">Back to Collection</a>
+    </div>
+
+    <ul id="results" class="list-group"></ul>
+  </div>
+
+  <script>
+    document.getElementById('searchBtn').onclick = async () => {
+      const max = document.getElementById('maxPrice').value;
+      const res = await fetch(`/sneakers?maxPrice=${max}`);
+      const data = await res.json();
+      const list = document.getElementById('results');
+      if (!data.length) {
+        list.innerHTML = '<li class="list-group-item">No results</li>';
+        return;
+      }
+      list.innerHTML = data.map(s => 
+        `<li class="list-group-item">
+           <strong>${s.name}</strong><br>
+           $${s.price} — ${new Date(s.releaseDate).toLocaleDateString()}
+         </li>`
+      ).join('');
+    };
+  </script>
+</body>
+</html>
