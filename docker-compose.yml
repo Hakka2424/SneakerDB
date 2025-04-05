@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:6                # pulls from docker.io by default
+    container_name: sneaker_mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - database_volume:/data/db
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.node
+    container_name: sneaker_app
+    restart: always
+    ports:
+      - "15880:3000"              # host 15880 → container 3000
+    depends_on:
+      - mongo
+    environment:
+      MONGODB_URI: mongodb://root:example@mongo:27017/sneakerDB?authSource=admin
+
+volumes:
+  database_volume:
