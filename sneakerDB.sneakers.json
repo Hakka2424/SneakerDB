@@ -1,0 +1,600 @@
+[{
+  "_id": {
+    "$oid": "67f064eb0b23b5aa64519c07"
+  },
+  "name": "Jordan 1 Retro High Travis Scott Mocha",
+  "size": 14,
+  "price": 1000,
+  "releaseDate": {
+    "$date": "2019-05-11T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f066b87e9e375cf767c15e"
+  },
+  "name": "Jordan 1 Retro High Obsidian",
+  "size": 14,
+  "price": 330,
+  "releaseDate": {
+    "$date": "2019-08-31T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f067597e9e375cf767c161"
+  },
+  "name": "Jordan 1 Retro High Obsidian",
+  "size": 14,
+  "price": 330,
+  "releaseDate": {
+    "$date": "2019-08-31T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0679d7e9e375cf767c163"
+  },
+  "name": "Jordan 1 Retro High Off-White University Blue",
+  "size": 14,
+  "price": 1749,
+  "releaseDate": {
+    "$date": "2018-06-23T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b31f089bd698a817f70a"
+  },
+  "name": "Jordan 1 Retro High OG Chicago Lost and Found",
+  "size": 14,
+  "price": 360,
+  "releaseDate": {
+    "$date": "2022-11-19T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b352089bd698a817f70d"
+  },
+  "name": "Jordan 1 Retro High OG Taxi",
+  "size": 14,
+  "price": 130,
+  "releaseDate": {
+    "$date": "2022-09-24T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b37a089bd698a817f710"
+  },
+  "name": "Jordan 1 Retro High OG Dark Marina Blue",
+  "size": 14,
+  "price": 124,
+  "releaseDate": {
+    "$date": "2022-02-16T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b3a8089bd698a817f712"
+  },
+  "name": "Jordan 1 Retro High OG Spider-Man Across the Spider-Verse",
+  "size": 14,
+  "price": 215,
+  "releaseDate": {
+    "$date": "2023-05-20T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b3d0089bd698a817f715"
+  },
+  "name": "Jordan 1 Retro High OG University Blue",
+  "size": 14,
+  "price": 300,
+  "releaseDate": {
+    "$date": "2021-03-06T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b3fa089bd698a817f718"
+  },
+  "name": "Jordan 1 Low Bred Toe",
+  "size": 14,
+  "price": 105,
+  "releaseDate": {
+    "$date": "2021-12-08T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b417089bd698a817f71a"
+  },
+  "name": "Jordan 1 Retro High OG Bordeaux",
+  "size": 14,
+  "price": 104,
+  "releaseDate": {
+    "$date": "2021-11-20T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b444089bd698a817f71c"
+  },
+  "name": "Jordan 1 Retro Low OG Black Dark Powder Blue",
+  "size": 14,
+  "price": 120,
+  "releaseDate": {
+    "$date": "2022-07-29T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b461089bd698a817f71f"
+  },
+  "name": "Jordan 1 Retro High Shadow 2.0",
+  "size": 14,
+  "price": 181,
+  "releaseDate": {
+    "$date": "2021-05-15T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b47c089bd698a817f721"
+  },
+  "name": "Jordan 1 Retro High OG Bleached Coral",
+  "size": 14,
+  "price": 180,
+  "releaseDate": {
+    "$date": "2023-07-02T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b49e089bd698a817f723"
+  },
+  "name": "Jordan 1 Retro High Hyper Royal Smoke Grey",
+  "size": 14,
+  "price": 270,
+  "releaseDate": {
+    "$date": "2021-04-17T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b4c4089bd698a817f726"
+  },
+  "name": "Jordan 1 Retro High Court Purple White",
+  "size": 14,
+  "price": 286,
+  "releaseDate": {
+    "$date": "2020-04-11T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b4f9089bd698a817f729"
+  },
+  "name": "Jordan 1 Retro High Black Metallic Gold (2020)",
+  "size": 14,
+  "price": 483,
+  "releaseDate": {
+    "$date": "2020-11-30T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b545089bd698a817f72b"
+  },
+  "name": "Jordan 1 Retro High CO.JP Neutral Grey (2020)",
+  "size": 14,
+  "price": 154,
+  "releaseDate": {
+    "$date": "2020-08-07T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b571089bd698a817f72d"
+  },
+  "name": "Jordan 1 Retro AJKO Low SP Union White Canvas",
+  "size": 14,
+  "price": 129,
+  "releaseDate": {
+    "$date": "2023-02-02T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b5a6089bd698a817f72f"
+  },
+  "name": "Jordan 1 Retro High CO.JP Midnight Navy (2020)",
+  "size": 14,
+  "price": 225,
+  "releaseDate": {
+    "$date": "2020-11-14T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b5d0089bd698a817f732"
+  },
+  "name": "Jordan 1 Retro High Fearless UNC Chicago",
+  "size": 14,
+  "price": 259,
+  "releaseDate": {
+    "$date": "2019-11-02T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b5f2089bd698a817f734"
+  },
+  "name": "Jordan 1 Low Shadow Toe",
+  "size": 14,
+  "price": 122,
+  "releaseDate": {
+    "$date": "2022-03-01T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b606089bd698a817f736"
+  },
+  "name": "Jordan 1 Mid Metallic Gold Black White",
+  "size": 14,
+  "price": 180,
+  "releaseDate": {
+    "$date": "2020-11-30T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b687089bd698a817f739"
+  },
+  "name": "Jordan 1 Retro High Shattered Backboard 3.0",
+  "size": 14,
+  "price": 519,
+  "releaseDate": {
+    "$date": "2019-10-26T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b6be089bd698a817f73b"
+  },
+  "name": "Jordan 1 Mid Chicago Toe",
+  "size": 14,
+  "price": 155,
+  "releaseDate": {
+    "$date": "2020-04-01T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b6ea089bd698a817f73d"
+  },
+  "name": "Jordan 1 Retro High Shadow (2018)",
+  "size": 14,
+  "price": 360,
+  "releaseDate": {
+    "$date": "2018-04-14T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b70a089bd698a817f73f"
+  },
+  "name": "Jordan 1 Retro High Bred Toe",
+  "size": 14,
+  "price": 310,
+  "releaseDate": {
+    "$date": "2018-02-24T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b725089bd698a817f741"
+  },
+  "name": "Jordan 1 Retro High Union Los Angeles Black Toe",
+  "size": 14,
+  "price": 2625,
+  "releaseDate": {
+    "$date": "2018-11-17T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b74f089bd698a817f743"
+  },
+  "name": "Jordan 1 Retro High Bred Banned (2016)",
+  "size": 15,
+  "price": 625,
+  "releaseDate": {
+    "$date": "2016-09-23T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b76b089bd698a817f745"
+  },
+  "name": "Jordan 1 Retro High Zoom White Racer Blue",
+  "size": 15,
+  "price": 236,
+  "releaseDate": {
+    "$date": "2020-03-14T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b791089bd698a817f747"
+  },
+  "name": "Jordan 1 Retro High Bloodline",
+  "size": 14,
+  "price": 275,
+  "releaseDate": {
+    "$date": "2019-11-29T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b7e7089bd698a817f749"
+  },
+  "name": "Jordan 1 Retro High Zoom Crater",
+  "size": 14,
+  "price": 145,
+  "releaseDate": {
+    "$date": "2020-09-11T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b8a8089bd698a817f74b"
+  },
+  "name": "Jordan 1 Retro High OG Heritage",
+  "size": 14,
+  "price": 100,
+  "releaseDate": {
+    "$date": "2022-05-25T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b8c4089bd698a817f74d"
+  },
+  "name": "Jordan 1 Retro High Pollen",
+  "size": 14,
+  "price": 162,
+  "releaseDate": {
+    "$date": "2021-08-14T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b8f5089bd698a817f74f"
+  },
+  "name": "Jordan 1 Retro High OG A Ma Maniére",
+  "size": 15,
+  "price": 210,
+  "releaseDate": {
+    "$date": "2021-12-02T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b935089bd698a817f751"
+  },
+  "name": "Jordan 4 Retro Military Blue (2024)",
+  "size": 14,
+  "price": 220,
+  "releaseDate": {
+    "$date": "2024-05-04T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b957089bd698a817f753"
+  },
+  "name": "Jordan 4 Retro Bred Reimagined",
+  "size": 14,
+  "price": 320,
+  "releaseDate": {
+    "$date": "2024-02-17T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b977089bd698a817f755"
+  },
+  "name": "Jordan 4 Retro Military Black",
+  "size": 14,
+  "price": 336,
+  "releaseDate": {
+    "$date": "2022-05-21T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b99b089bd698a817f757"
+  },
+  "name": "Jordan 4 Retro SP A Ma Maniére Violet Ore",
+  "size": 14,
+  "price": 475,
+  "releaseDate": {
+    "$date": "2022-11-23T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b9b5089bd698a817f759"
+  },
+  "name": "Jordan 4 Retro Lightning (2021)",
+  "size": 14,
+  "price": 231,
+  "releaseDate": {
+    "$date": "2021-08-28T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b9da089bd698a817f75b"
+  },
+  "name": "Jordan 4 Retro University Blue",
+  "size": 14,
+  "price": 450,
+  "releaseDate": {
+    "$date": "2021-04-28T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0b9fe089bd698a817f75d"
+  },
+  "name": "Jordan 4 Retro Travis Scott Cactus Jack",
+  "size": 14,
+  "price": 999,
+  "releaseDate": {
+    "$date": "2018-06-09T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0ba4c089bd698a817f75f"
+  },
+  "name": "Jordan 3 Retro OG Black Cement (2024)",
+  "size": 14,
+  "price": 234,
+  "releaseDate": {
+    "$date": "2024-11-23T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0ba64089bd698a817f761"
+  },
+  "name": "Jordan 3 Retro White Cement Reimagined",
+  "size": 14,
+  "price": 290,
+  "releaseDate": {
+    "$date": "2023-03-11T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0baa3089bd698a817f763"
+  },
+  "name": "Jordan 3 Retro OG SP A Ma Maniére While You Were Sleeping (Women's)",
+  "size": 14,
+  "price": 210,
+  "releaseDate": {
+    "$date": "2024-08-20T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0baea089bd698a817f765"
+  },
+  "name": "Jordan 1 Retro Chicago (2013)",
+  "size": 13,
+  "price": 999,
+  "releaseDate": {
+    "$date": "2013-01-10T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0cb52712b4b52243ca66c"
+  },
+  "name": "Jordan 1 Retro Royal (2017)",
+  "size": 14,
+  "price": 300,
+  "releaseDate": {
+    "$date": "2017-04-01T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0cc2a712b4b52243ca66f"
+  },
+  "name": "Jordan 11 Retro Playoffs Bred (2019)",
+  "size": 14,
+  "price": 420,
+  "releaseDate": {
+    "$date": "2019-12-14T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0cd15712b4b52243ca671"
+  },
+  "name": "Nike Dunk Low Off-White Lot 8",
+  "size": 14,
+  "price": 555,
+  "releaseDate": {
+    "$date": "2021-08-09T00:00:00.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f0cd9e2bb4a01721b017c5"
+  },
+  "name": "Jordan 5 Retro DJ Khaled We The Best Crimson Bliss",
+  "size": 14,
+  "price": 481,
+  "releaseDate": {
+    "$date": "2022-11-28T00:00:00.000Z"
+  },
+  "__v": 0
+}]
