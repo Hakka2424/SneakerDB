@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Page title -->
     <title>Sneaker Collection</title>
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <style>
+      /* Page background and padding */
       body { background-color: #f8f9fa; padding: 20px; }
+      /* Card spacing */
       .card { margin-bottom: 20px; }
     </style>
   </head>
   <body>
+    <!-- Main container -->
     <div class="container">
+      <!-- Header -->
       <h1 class="my-4 text-center">Sneaker Collection</h1>
 
-      <!-- Add & Search Buttons -->
+      <!-- Action buttons -->
       <div class="mb-4 text-center">
+        <!-- Navigate to the form to add a new sneaker -->
         <a href="/form"  class="btn btn-success mr-2">Add Sneaker</a>
+        <!-- Navigate to the AJAX query page -->
         <a href="/query" class="btn btn-primary">Search Sneakers</a>
       </div>
 
+      <!-- Grid of sneaker cards -->
       <div class="row">
+        <%# Loop through each sneaker in the array %>
         <% sneakers.forEach(function(sneaker) { %>
+          <!-- Single sneaker card column -->
           <div class="col-md-4">
             <div class="card">
-              <!-- (optional image slot here) -->
+              <!-- Card body -->
               <div class="card-body">
+                <!-- Sneaker name -->
                 <h5 class="card-title"><%= sneaker.name %></h5>
+                <!-- Sneaker details -->
                 <p class="card-text">
                   <strong>Size:</strong> <%= sneaker.size %><br>
                   <strong>Price:</strong> $<%= sneaker.price %><br>
@@ -39,8 +52,3 @@
         <% }); %>
       </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
