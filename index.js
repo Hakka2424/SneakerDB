@@ -22,17 +22,17 @@ app.use(express.json());
 
 // Routes
 
-// Redirect root to collection
+// 1) Redirect root to /collection
 app.get('/', (req, res) => {
   res.redirect('/collection');
 });
 
-// Show form to add a new sneaker
+// 2) Show add‑sneaker form
 app.get('/form', (req, res) => {
   res.render('pages/form');
 });
 
-// Display collection
+// 3) Display all sneakers
 app.get('/collection', async (req, res) => {
   try {
     const sneakers = await Sneaker.find({});
@@ -42,7 +42,7 @@ app.get('/collection', async (req, res) => {
   }
 });
 
-// Handle form POST to add a sneaker
+// 4) Handle form submission
 app.post('/sneaker', async (req, res) => {
   try {
     const newSneaker = new Sneaker(req.body.sneaker);
@@ -53,7 +53,7 @@ app.post('/sneaker', async (req, res) => {
   }
 });
 
-// JSON endpoint: list or filter by maxPrice
+// 5) JSON endpoint: list or filter by maxPrice
 app.get('/sneakers', async (req, res) => {
   try {
     const filter = {};
@@ -67,12 +67,12 @@ app.get('/sneakers', async (req, res) => {
   }
 });
 
-// Show AJAX query page
+// 6) Show AJAX query page
 app.get('/query', (req, res) => {
   res.render('pages/query');
 });
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT} !`);
+  console.log(`App listening on port ${PORT}!`);
 });
